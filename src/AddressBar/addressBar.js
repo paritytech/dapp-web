@@ -19,7 +19,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
 import { Button, DappUrlInput } from '@parity/ui';
-import { CloseIcon, RefreshIcon, GotoIcon } from '@parity/ui/Icons';
+import { CloseIcon, RefreshIcon, GotoIcon } from '@parity/ui/lib/Icons';
 
 @observer
 export default class AddressBar extends Component {
